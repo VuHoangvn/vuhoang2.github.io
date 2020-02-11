@@ -1,0 +1,451 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato';
+    text-rendering: optimizeLegibility;
+}
+
+.container{
+    position: relative;
+    padding-top: 7vh;
+}
+
+.layout{
+    margin: auto;
+    max-width: 80vw;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------ */
+/* -----------------HEADER------------------- */
+/* ------------------------------------------ */
+.header{
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),
+        url("../img/background.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.logo-img{
+    margin-right: 1vw;
+}
+
+.navbar-items{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.navbar-items li a{
+    margin-right: 2vw;
+    color: white;
+}
+
+.btn-login{
+    padding: 5px 10px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-language{
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 2vw;
+}
+.navbar-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview{
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.overview h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.overview p{
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    /* or 36px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.overview a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    color: #ED4C5C;
+    padding: 10px 15px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+/* -------------------------------------------------- */
+/* -------------------SOFTWARE----------------------- */
+/* -------------------------------------------------- */
+
+.software{
+    height: 70vh;
+}
+
+.software-content{
+    margin-top: 5vh;
+}
+
+.software-content h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+
+    color: #000000;
+    margin-bottom: 5vh;
+}
+
+.software-content p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    max-width: 30vw;
+
+    text-align: justify;
+
+    color: #000000;
+    margin-bottom: 3vh;
+}
+
+.software-content a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #ED4C5C;
+}
+
+
+/* -------------------------------------------------- */
+/* -------------------FEATURES----------------------- */
+/* -------------------------------------------------- */
+
+.features{
+    background: #FAFAFA;
+    height: 80vh;
+}
+
+.layout h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+}
+
+.features-item{
+    /* position: absolute; */
+}
+
+.feature{
+    width: 20vw;
+    height: 25vh;
+    transform: translate(5vh, -12vh);
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 2vh;
+}
+
+.feature h3{
+    margin-bottom: 2vh;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+
+    color: #101010;
+
+}
+
+.feature p{
+
+    font-size: 0.8rem;
+
+    text-align: center;
+
+    color: #101010;
+    margin-bottom: 2vh;
+}
+
+.feature-detail{
+    font-size: 0.8rem;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.feature a{
+    color: #ED4C5C;
+}
+
+/* -------------------------------------------------- */
+/* -------------------FEATURES----------------------- */
+/* -------------------------------------------------- */
+
+.technology{
+    background: white;
+    height: 65vh;
+}
+
+.technology-bg{
+    width: 1.5vw;
+    height: 1.5vh;
+    
+    font-weight: bold;
+    font-size: 6rem;
+    /* identical to box height */
+    margin: 3vw;
+    text-align: center;
+
+    color: rgba(16, 16, 16, 0.08);
+    margin-bottom: 15vh;
+}
+
+.technology-item h3{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    color: #101010;
+    margin-bottom: 2vh;
+}
+
+.technology-item p{
+    max-width: 15vw;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #000000;
+
+}
+
+/* -------------------------------------------------- */
+/* -------------------about----------------------- */
+/* -------------------------------------------------- */
+
+.about{
+    height: 70vh;
+    background-color: #ED4C5C;;
+}
+
+.about-content{
+    margin-top: 5vh;
+}
+
+.about-content h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.about-content p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    max-width: 30vw;
+
+    text-align: justify;
+
+    color: white;
+    margin-bottom: 3vh;
+}
+
+
+/* -------------------------------------------------- */
+/* -------------------SOFTWARE----------------------- */
+/* -------------------------------------------------- */
+
+.contact{
+    height: 60vh;
+}
+
+.contact-content{
+    margin-top: 5vh;
+    max-width: 50%;
+}
+
+.contact-form{
+    max-width: 50%;
+}
+
+
+.contact-content h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 5vh;
+}
+
+.btn-submit{
+    width: 7vw;
+    height: 5vh;
+
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.contact-content p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    max-width: 30vw;
+
+    text-align: justify;
+
+    color: #000000;
+    margin-bottom: 3vh;
+}
+
+.contact-name{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 2rem;
+    width: 30vw;
+    margin-bottom: 5vh;
+}
+
+.form-name{
+    max-width: 14vw;
+}
+
+/* ---------------------------------------------- */
+/* ------------------FOOTER---------------------- */
+/* ---------------------------------------------- */
+
+.footer{
+    height: 60vh;
+    background-color: #FAFAFA;
+}
+
+.footer-item h3{
+    font-weight: bold;
+    font-size: 1rem;
+
+    text-align: center;
+
+    color: #101010;
+    margin-bottom: 5vh;
+}
+
+.footer-item p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+
+    color: #000000;
+}
